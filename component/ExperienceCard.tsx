@@ -21,7 +21,10 @@ function ExperienceCard({}: Props) {
         </h4>
         <p className="font-bold text-2xl mt-1">Publicis Sapient</p>
         <div className="flex space-x-2 my-2">
-          <img src="https://iconscout.com/3d/java-script-5645832" alt="" />
+          <img
+            src="https://github.com/manishch0/portfolio/blob/Portfolio/assests/jslogo.jpg"
+            alt=""
+          />
         </div>
         <div>Html,css js, c ,c++, Reactjs, nextjs,</div>
       </div>
