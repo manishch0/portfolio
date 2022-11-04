@@ -1,13 +1,12 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
-// import "./Header.css"
 
 type Props = {};
 
 export default function Header({}: Props) {
   return (
-    <header className="justify-between sticky top-0 p-5 flex items-start mx-auto z-20 ">
+    <header className=" sticky top-0 p-5 flex justify-between items-start mx-auto z-20 ">
       <motion.div
         initial={{ x: -500, opacity: 0, scale: 1.5 }}
         animate={{ x: 0, opacity: 1, scale: 1 }}
@@ -20,17 +19,17 @@ export default function Header({}: Props) {
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://linkedin.com/in/jaketrent"
+          url="https://facebook.com/in/jaketrent"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://linkedin.com/in/jaketrent"
+          url="https://youtube.com/in/jaketrent"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://linkedin.com/in/jaketrent"
+          url="https://instagram.com/in/jaketrent"
           fgColor="gray"
           bgColor="transparent"
         />
