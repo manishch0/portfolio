@@ -5,14 +5,14 @@ type Props = {};
 
 function ExperienceCard({}: Props) {
   return (
-    <article>
+    <article className="flex flex-col rounded-l items-center">
       <motion.img
         initial={{ y: -100, opacity: 0 }}
         transition={{ duration: 1.2 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewpoet={{ once: true }}
         className=" w-32 h-32 rounded-full xl:w-[200] xl:h-[200px] object-cover object-center"
-        src="https://github.com/manishch0/portfolio/blob/Portfolio/component/background.png?raw=true"
+        src="https://github.com/manishch0/portfolio/blob/Portfolio/assests/IMGB.jpg?raw=true"
         alt=""
       />
       <div className="px-0 md:px-10">
